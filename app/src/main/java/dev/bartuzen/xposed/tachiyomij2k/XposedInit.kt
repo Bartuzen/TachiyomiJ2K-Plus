@@ -1,9 +1,9 @@
-package dev.bartuzen.xposed
+package dev.bartuzen.xposed.tachiyomij2k
 
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.callbacks.XC_LoadPackage
-import dev.bartuzen.xposed.hooks.LibraryUpdateIntervalExtraOptionsHook
-import dev.bartuzen.xposed.hooks.RemoveNotificationsHook
+import dev.bartuzen.xposed.tachiyomij2k.hooks.LibraryUpdateIntervalExtraOptionsHook
+import dev.bartuzen.xposed.tachiyomij2k.hooks.RemoveNotificationsHook
 
 class XposedInit : IXposedHookLoadPackage {
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {

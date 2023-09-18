@@ -1,4 +1,4 @@
-package dev.bartuzen.xposed.hooks
+package dev.bartuzen.xposed.tachiyomij2k.hooks
 
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedHelpers
