@@ -7,7 +7,7 @@ class RemoveNotificationsHook {
     companion object {
         fun init(classLoader: ClassLoader) {
             XposedHelpers.findAndHookMethod(
-                "eu.kanade.tachiyomi.data.library.LibraryUpdateService",
+                "eu.kanade.tachiyomi.data.library.LibraryUpdateJob",
                 classLoader,
                 "checkIfMassiveUpdate",
                 object : XC_MethodHook() {
